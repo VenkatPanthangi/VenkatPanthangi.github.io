@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Email development portfolio featuring responsive HTML email, dynamic personalization, Salesforce Marketing Cloud and email QA.">
+  <title>Email Developer Portfolio | P V Rao</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">YOUR<span>EMAIL</span>PORTFOLIO</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+        <a href="#process">QA process</a><a class="nav-cta" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">EMAIL DEVELOPMENT · MARKETING TECHNOLOGY</p>
+        <h1>Responsive emails.<br><span>Smarter personalization.</span></h1>
+        <p class="hero-text">I build responsive HTML email experiences and personalized campaigns using HTML, CSS, AMPscript and Salesforce Marketing Cloud.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View projects</a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <p class="small-note">Replace the sample details on this page with your own verified information before publishing.</p>
+      </div>
+      <div class="hero-card">
+        <div class="code-top"><span></span><span></span><span></span><b>email.html</b></div>
+        <pre><code><span class="code-muted">&lt;!-- Email built for inboxes --&gt;</span>
+&lt;table role="presentation"
+  width="100%"&gt;
+  &lt;tr&gt;
+    &lt;td align="center"&gt;
+      <span class="code-blue">&lt;h1&gt;</span>Hello, %%FirstName%%<span class="code-blue">&lt;/h1&gt;</span>
+      &lt;a href="..."&gt;Explore offers&lt;/a&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+        <div class="hero-tags"><span>HTML / CSS</span><span>AMPscript</span><span>SFMC</span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container strip-inner"><span>CORE CAPABILITIES</span><b>Responsive HTML</b><b>Dynamic content</b><b>AMPscript</b><b>Email QA</b></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">INTRODUCTION</p><h2>About me</h2></div>
+      <div class="about-grid">
+        <p class="lead">I specialise in building email experiences that are clear, responsive and dependable across major email clients.</p>
+        <div class="about-copy">
+          <p>My focus areas include table-based email layouts, inline CSS, dynamic content, AMPscript personalization and rendering quality checks.</p>
+          <p>This portfolio contains demonstration projects using fictional brands and sample data. Add a short, accurate summary of your own experience, industries and platforms here.</p>
+          <a class="text-link" href="#contact">Discuss a project <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">WHAT I WORK WITH</p><h2>Technical skills</h2><p class="section-intro">A focused toolkit for email production, personalization and quality assurance.</p></div>
+        <div class="skill-grid">
+          <article class="skill-card"><div class="skill-icon">01</div><h3>HTML email development</h3><p>Semantic structure, nested tables, inline CSS, responsive layouts and reusable modules.</p><div class="pills"><span>HTML</span><span>CSS</span><span>Media queries</span></div></article>
+          <article class="skill-card"><div class="skill-icon">02</div><h3>Dynamic personalization</h3><p>Personalized greetings, conditional messaging, fallback content and data-driven email blocks.</p><div class="pills"><span>Dynamic content</span><span>Personalization</span></div></article>
+          <article class="skill-card"><div class="skill-icon">03</div><h3>Salesforce Marketing Cloud</h3><p>Email development demonstrations using AMPscript and Data Extension concepts.</p><div class="pills"><span>SFMC</span><span>AMPscript</span><span>Data Extensions</span></div></article>
+          <article class="skill-card"><div class="skill-icon">04</div><h3>Email testing and QA</h3><p>Rendering review, link checks, image checks, mobile testing and dark-mode considerations.</p><div class="pills"><span>Litmus</span><span>Email on Acid</span><span>QA</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">SELECTED WORK</p><h2>Demonstration projects</h2><p class="section-intro">Open each project to review its sample code. These are portfolio demonstrations, not client work.</p></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-visual visual-one"><div class="mock-email"><small>WEEKEND EDIT</small><strong>Find your<br>everyday style.</strong><i>SHOP THE COLLECTION →</i></div></div>
+          <div class="project-body"><p class="project-type">HTML / CSS</p><h3>Responsive retail promotion</h3><p>A fictional retail campaign featuring a responsive layout, product cards and CTA modules.</p><a class="text-link" href="projects/responsive-retail.html">View project <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-two"><div class="mock-email personalized"><small>MEMBER UPDATE</small><strong>Hello,<br>Alex!</strong><p>Your next reward is waiting.</p><i>VIEW YOUR REWARDS →</i></div></div>
+          <div class="project-body"><p class="project-type">AMPscript / PERSONALIZATION</p><h3>Dynamic member email</h3><p>Sample personalization logic with a first-name fallback and conditional member messaging.</p><a class="text-link" href="projects/dynamic-member-email.html">View project <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-three"><div class="mock-email booking"><small>TRAVEL CONFIRMATION</small><strong>Your trip<br>is confirmed.</strong><p>Booking reference: DEMO-2048</p><i>VIEW ITINERARY →</i></div></div>
+          <div class="project-body"><p class="project-type">SFMC / DATA</p><h3>Transactional email concept</h3><p>A sample booking confirmation showing how customer and booking fields can populate an email.</p><a class="text-link" href="projects/booking-confirmation.html">View project <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="process">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">QUALITY FIRST</p><h2>Email QA process</h2><p class="section-intro">A repeatable checklist helps reduce avoidable campaign issues.</p></div>
+        <div class="process-grid">
+          <div><b>01</b><h3>Structure</h3><p>Review table structure, semantic roles, nesting and content order.</p></div>
+          <div><b>02</b><h3>Responsiveness</h3><p>Check narrow screens, fluid images, spacing and CTA usability.</p></div>
+          <div><b>03</b><h3>Personalization</h3><p>Test populated, missing and unexpected data values and fallback logic.</p></div>
+          <div><b>04</b><h3>Rendering</h3><p>Review supported clients, dark mode, links, images and final content.</p></div>
+        </div>
+        <a class="button light-button" href="projects/email-qa-checklist.html">Open QA checklist</a>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel">
+        <div><p class="eyebrow">LET'S CONNECT</p><h2>Have an email project in mind?</h2><p>Contact me to discuss email development, personalization or QA requirements.</p></div>
+        <div class="contact-links">
+          <a href="mailto:pvrao8125@gmail.com">pvrao8125@gmail.com <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/" target="_blank" rel="noopener">LinkedIn profile <span>↗</span></a>
+          <a href="https://github.com/YOUR-GITHUB/" target="_blank" rel="noopener">GitHub portfolio <span>↗</span></a>
+        </div>
+      </div>
+      <p class="footer-note">© <span id="year"></span> P V Rao · Email Development Portfolio</p>
+    </section>
+  </main>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const toggle = document.querySelector('.menu-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      links.classList.toggle('open');
+    });
+    links.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }));
+  </script>
+</body>
+</html>
